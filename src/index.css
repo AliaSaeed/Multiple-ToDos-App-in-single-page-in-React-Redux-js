@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: lightblue !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+/* todo.css */
+/* Todo List Container */
+.todo-list {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+/* Todo List Item */
+.todo-list__item {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Todo List Item Text */
+.todo-list__text {
+  margin: 0;
+}
+
+/* Delete Button */
+.todo-list__delete-btn {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Button */
+.todo-list__add-btn {
+  color: green;
+  cursor: pointer;
+}
+
+/* Check List Button */
+.check-list-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  .todo-list {
+    padding: 10px;
+  }
+}
+

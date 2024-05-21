@@ -1,0 +1,181 @@
+/* todo.css */
+
+.main-div {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 70px;
+  }
+  
+  .child-div {
+    margin-top: 50px;
+    background: #42d8ef;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 2 0 8px rgba(217, 36, 36, 0.1);
+  }
+  
+  .addItems {
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .addItems input[type='text'] {
+    padding: 15px;
+    width: 70%;
+    border: 3px solid white;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .addItems input[type='text']:focus {
+    border-color: rgb(255, 206, 30);
+  }
+  
+  .addItems .add-btn {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #555;
+  }
+  .showItems {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
+
+.eachItem {
+    flex: 0 0 calc(33.33% - 20px); /* Each column takes one-third of the width with some spacing */
+    margin-right: 20px; /* Adjust the spacing between columns */
+    margin-bottom: 20px; /* Adjust the spacing between rows */
+}
+
+
+.showItems {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7px; /* Adjust the gap between columns */
+}
+
+.itemRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px; /* Adjust the gap between rows */
+}
+
+.iconTextWrapper {
+    margin-left: 200px; /* Adjust the gap between icon and text */
+}
+
+.del-btn {
+    color: red;
+    cursor: pointer;
+}
+
+
+.iconTextWrapper {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    margin-top: 5px; /* Adjust spacing between icon and text */
+}
+
+
+  .eachItem {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    background: #26dacb;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eachItem h3 {
+    margin: 10px;
+    color: #333;
+  }
+  
+  .eachItem .Todo-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .eachItem .Todo-btn .delete-btn {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+  }
+  
+  .showItems .btn {
+    background: dodgerblue;
+    color: #ca2020;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .showItems .btn:hover {
+    background: hsl(13, 100%, 56%);
+  }
+  
+  .effect04 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .effect04 span {
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .effect04::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: red;
+    border-radius: 50%;
+    z-index: 2;
+    transition: 0.7s ease;
+    transform: translate(-50%, -50%);
+  }
+  
+  .effect04:hover::before {
+    width: 0;
+    height: 0;
+  }
+  
+  .effect04 span {
+    position: relative;
+    color: #fff;
+    z-index: 3;
+    font-weight: bold;
+  }
+
+  .column {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div {
+    width: 400px; /* Adjust width as needed */
+    border: 1px solid #cac9dc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 2px;
+    padding: 5px;
+}
+
+/* Add more styling as needed */
+
+  
+  
